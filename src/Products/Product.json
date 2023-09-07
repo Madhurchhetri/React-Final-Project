@@ -1,0 +1,236 @@
+{
+    "products":[
+        {
+        "id":1,
+        "title":"dumbell",
+        "price":5000 ,
+        "desc":"this is equipment for gym",
+        "image":"../../../../assets/dumbbells1.jpg",
+        "quantity":1
+    },
+    {
+        "id":2,
+        "title":"MuscleBlaze Biozyme",
+        "price":3699 ,
+        "desc":"Performance Whey, 1.75 kg (3.85 lb), Triple Chocolate",
+        "image":"../../../../assets/protein1.webp",
+        "quantity":1
+    },
+    {
+        "id":3,
+        "title":"Treadmill",
+        "price":69999 ,
+        "desc":"Sketra Pro Run Treadmill",
+        "image":"../../../../assets/treadmill1.jpg",
+        "quantity":1
+    },
+    {
+        "id":4,
+        "title":"Foam Roller",
+        "price":395 ,
+        "desc":"HOMEGALLEY Yoga Foam Roller for Exercise",
+        "image":"../../../../assets/yogaFoamRoller1.jpg",
+        "quantity":1
+    },
+    {
+        "id":5,
+        "title":"Yoga Mats",
+        "price":347 ,
+        "desc":"Boldfit Yoga Mats For Women yoga mat for men Exercise mat for home workout ",
+        "image":"../../../../assets/yogaMat1.webp",
+        "quantity":1
+    },
+    {
+        "id":6,
+        "title":"TRASA",
+        "price":895 ,
+        "desc":"Active Yoga Leggings for Womens",
+        "image":"../../../../assets/yogaPants.jpeg",
+        "quantity":1
+    },
+    {
+        "id":7,
+        "title":"Fitlastics",
+        "price":329 ,
+        "desc":"Fitlastics Resistance Bands for Toning.",
+        "image":"../../../../assets/yogaResistanceBand1.jpg",
+        "quantity":1
+    },
+    {
+        "id":8,
+        "title":"Reach Vision Spin Bike",
+        "price":18999 ,
+        "desc":"Reach Vision Spin Bike with 6.5kg Flywheel, Adjustable Handlebar & Magnetic Resistance.",
+        "image":"../../../../assets/cyclingBike1.jpg",
+        "quantity":1
+    },
+    {
+        "id":9,
+        "title":"Klikfit Dumbbells",
+        "price":2998 ,
+        "desc":"Klikfit Rubber Fixed Dumbbells, 7.5 KG (Black) (7.5kg x 2pcs)",
+        "image":"../../../../assets/dumbbells2.jpg",
+        "quantity":1
+    },
+    {
+        "id":10,
+        "title":"Watson Dumbbells",
+        "price":1528 ,
+        "desc":"Watson Dumbbells Set, 5Kg(2.5Kgx2) Yellow Hex Dumbbells Rubber Coated Suitable For Fitness Exercises",
+        "image":"../../../../assets/dumbbells3.jpeg",
+        "quantity":1
+    },
+    {
+        "id":11,
+        "title":"RUBX Dumbbells",
+        "price":4275 ,
+        "desc":"RUBX Rubber Coated Professional Round Fixed Dumbbells, (Yellow, 15 Kg x 2pc (Total = 30 kg)) Black",
+        "image":"../../../../assets/dumbbells4.webp",
+        "quantity":1
+    },
+    {
+        "id":12,
+        "title":"PowerMax Fitness Bike",
+        "price":18499 ,
+        "desc":"PowerMax Fitness BS-150 Spin Exercise cycling Bike for Home Use [10Kg Flywheel",
+        "image":"../../../../assets/cyclingBike2.jpg",
+        "quantity":1
+    },
+    {
+        "id":13,
+        "title":"LETSPLAY Fitness Bike",
+        "price":12999 ,
+        "desc":"LETSPLAY® Indoor Upright Exercise Bike with Matt Black Frame Handlebar Aluminum Pedals Ergonomic Seat for Home",
+        "image":"../../../../assets/cyclingBike3.jpg",
+        "quantity":1
+    },
+    {
+        "id":14,
+        "title":"Lifelong Kettlebells",
+        "price":1310 ,
+        "desc":"Lifelong Black Vinyl Cast Iron Kettlebells 06Kg",
+        "image":"../../../../assets/KettleBells1.jpg",
+        "quantity":1
+    },
+    {
+        "id":15,
+        "title":"BABA SPORTS Kettlebell",
+        "price":660 ,
+        "desc":"BABA SPORTS Kettlebell, 4KG Kettle Bell, Cast Iron Kettlebell, Kettlebells Weight",
+        "image":"../../../../assets/kettleBells2.jpeg",
+        "quantity":1
+    },
+    {
+        "id":16,
+        "title":"Yes4All Kettlebell",
+        "price":11983 ,
+        "desc":"Yes4All Solid Cast Iron Kettlebell for Full Body Workout, 16KG Kettle Bell ,Weight Loss and Strength Training",
+        "image":"../../../../assets/kettleBells3.webp",
+        "quantity":1
+    },
+    {
+        "id":17,
+        "title":"Bodyfit Kettlebell",
+        "price":425 ,
+        "desc":"Bodyfit Heavy Weight Kettle Bell for Strength Cardio Training",
+        "image":"../../../../assets/kettleBells4.jpg",
+        "quantity":1
+    },
+    {
+        "id":18,
+        "title":"MuscleBlaze Creatine",
+        "price":999 ,
+        "desc":"MuscleBlaze Creatine Monohydrate, Labdoor USA Certified Creatine (Unflavoured, 250 g / 0.55 lb, 83 Servings)",
+        "image":"../../../../assets/proteine2.jpg",
+        "quantity":1
+    },
+    {
+        "id":19,
+        "title":"MuscleBlaze Super Gainer",
+        "price":999 ,
+        "desc":"MuscleBlaze Super Gainer Black with Enhanced Gaining Formula- Digestion & Testo Blend for Muscle Mass Gain",
+        "image":"../../../../assets/protein3.jpg",
+        "quantity":1
+    },
+    {
+        "id":20,
+        "title":"Sparnod Fitness Treadmill",
+        "price":16549 ,
+        "desc":"Sparnod Fitness STH-1250 Treadmill for Home",
+        "image":"../../../../assets/treadmill2.jpeg",
+        "quantity":1
+    },
+    {
+        "id":21,
+        "title":"Cockatoo Motorized Treadmill",
+        "price":27999 ,
+        "desc":"Cockatoo CTM13 (3 HP) DC Motorized Treadmill for Home with Manual Incline",
+        "image":"../../../../assets/treadmill3.webp",
+        "quantity":1
+    },
+    {
+        "id":22,
+        "title":"SOLARA Foam Roller",
+        "price":749 ,
+        "desc":"SOLARA Foam Roller for Back Pain, Exercise and Fitness",
+        "image":"../../../../assets/YogaFoamRoller2.webp",
+        "quantity":1
+    },
+    {
+        "id":23,
+        "title":"FEGSY Foam Rollel",
+        "price":695 ,
+        "desc":"FEGSY Foam Roller for Exercise, Fitness, Back Pain",
+        "image":"../../../../assets/yogaFoamRoller3.jpg",
+        "quantity":1
+    },
+    {
+        "id":24,
+        "title":"Vifitkit Yoga Mat",
+        "price":399 ,
+        "desc":"Vifitkit 4mm Anti-Skid EVA+TPE Yoga Mat with Strap for Home Gym",
+        "image":"../../../../assets/YogaMat2.jpg",
+        "quantity":1
+    },
+    {
+        "id":25,
+        "title":"Effingo Yoga Mat",
+        "price":207 ,
+        "desc":"Yoga Mat Exercise or Meditation for men & women (4mm) (4mm, Purple)",
+        "image":"../../../../assets/YogaMat3.jpg",
+        "quantity":1
+    },
+    {
+        "id":26,
+        "title":"BLINKIN Gym wear ",
+        "price":378 ,
+        "desc":"BLINKIN Gym wear Mesh Leggings Workout yoga Pants with Side Pockets",
+        "image":"../../../../assets/yogaPants2.jpeg",
+        "quantity":1
+    },
+    {
+        "id":27,
+        "title":"Van Heusen Gym wear",
+        "price":1009 ,
+        "desc":"Yoga Pant, Van Heusen Proactive Women Tights - Polyamide Elastane - Snug Fit",
+        "image":"../../../../assets/yogaPant3.webp",
+        "quantity":1
+    },
+    {
+        "id":28,
+        "title":"Boldfit Resistance Bands",
+        "price":189 ,
+        "desc":"Boldfit Resistance Bands Mini Loop Hip Band Toning Exercise Band",
+        "image":"../../../../assets/yogaResistanceBand2.jpeg",
+        "quantity":1
+    },
+    {
+        "id":29,
+        "title":"AM Safe-X Resistance Bands",
+        "price":299 ,
+        "desc":"Resistance Band (Black, Pack of 5)",
+        "image":"../../../../assets/yogaResistanceBand3.jpg",
+        "quantity":1
+    }
+]
+}

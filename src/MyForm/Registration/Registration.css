@@ -1,0 +1,143 @@
+.Reg_page{
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), 
+    url("../../../public/assets/registration-background.avif");
+    background-color: rgba(0,0,0,0.4);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+   
+    
+}
+.Reg_page .Form_grp{
+    width: 70%;
+    margin: auto;
+   background: #c6e95fa1;
+    box-shadow: 2px 2px 3px 5px #3d32e1;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+.Reg_page .Form_grp .txt{
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.Reg_page .Form_grp .left_side{
+    width: 30%;
+}
+.Reg_page .Form_grp .left_side form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.Reg_page .Form_grp .left_side form .parent_inpt{
+    width: 100%;
+    margin: 5px 0;
+    position: relative;
+}
+.Reg_page .Form_grp .left_side form  .parent_inpt input{
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+}
+.Reg_page .Form_grp .left_side form  input[type=file]{
+    
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+.Reg_page .Form_grp .left_side form  input[type=submit]{
+    
+    width: 20%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    outline: none;
+    background: #320b0b;
+    transition: all .3s;
+    color: #c6c6eb;
+    font-weight: 500;
+}
+.Reg_page .Form_grp .left_side form  input[type=submit]:hover{
+    padding: 5px;
+    color: #c6c6eb;
+    background-color: rgb(31, 23, 58);
+    font-size: 18px;
+}
+.Reg_page .Form_grp .left_side form .parent_inpt  label{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #2a0404;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+.Reg_page .Form_grp .left_side form .parent_inpt input:focus~label,
+.Reg_page .Form_grp .left_side form .parent_inpt input:valid~label{
+    top: -20px;
+    left: 5px;
+    font-size: 15px;
+    color: #fff;
+
+}
+.Reg_page .Form_grp .left_side form .parent_inpt span{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: #2a0404;
+    transition: .5s;
+
+}
+.Reg_page .Form_grp .left_side form .parent_inpt input:focus~span,
+.Reg_page .Form_grp .left_side form .parent_inpt input:valid~span{
+    top: -20px;
+    right: 5px;
+}
+.Reg_page .Form_grp .left_side p {
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin: 20px 0 0 0 ;
+    color: #fff;
+    font-size: 20px;
+}
+.Reg_page .Form_grp .left_side p a{
+    text-transform: capitalize;
+    text-decoration: none;
+  font-weight: 400!important;
+    padding: 10px;
+    color: #c6c6eb;
+    border-radius: 5px;
+    transition: all .3s;
+    font-size: 20px;
+}
+.Reg_page .Form_grp .left_side p a:hover{
+    color: #3131d4; 
+    font-size: 20px;
+}
+.Reg_page .Form_grp .right_side{
+    width: 30%;
+}
+.Reg_page .Form_grp .right_side img{
+    filter: opacity(0.5);
+}
+.errror{
+    position: absolute;
+    top: 5px;
+    left: 80px;
+    color: red!important;
+    font-weight: 300;
+}

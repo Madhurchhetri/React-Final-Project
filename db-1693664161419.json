@@ -1,0 +1,49 @@
+{
+  "Carts": [
+    {
+      "title": "Treadmill",
+      "price": 69999,
+      "desc": "Sketra Pro Run Treadmill",
+      "image": "../../../../assets/treadmill1.jpg",
+      "quantity": 1,
+      "email": "madhur@gmail.com",
+      "id": 3
+    },
+    {
+      "id": 8,
+      "title": "Reach Vision Spin Bike",
+      "price": 18999,
+      "desc": "Reach Vision Spin Bike with 6.5kg Flywheel, Adjustable Handlebar & Magnetic Resistance.",
+      "image": "../../../../assets/cyclingBike1.jpg",
+      "quantity": 1,
+      "email": "madhur@gmail.com"
+    },
+    {
+      "title": "TRASA",
+      "price": 895,
+      "desc": "Active Yoga Leggings for Womens",
+      "image": "../../../../assets/yogaPants.jpeg",
+      "quantity": 1,
+      "email": "madhur@gmail.com",
+      "id": 11
+    },
+    {
+      "title": "Yes4All Kettlebell",
+      "price": 11983,
+      "desc": "Yes4All Solid Cast Iron Kettlebell for Full Body Workout, 16KG Kettle Bell ,Weight Loss and Strength Training",
+      "image": "../../../../assets/kettleBells3.webp",
+      "quantity": 1,
+      "email": "madhur@gmail.com",
+      "id": 14
+    },
+    {
+      "title": "MuscleBlaze Biozyme",
+      "price": 3699,
+      "desc": "Performance Whey, 1.75 kg (3.85 lb), Triple Chocolate",
+      "image": "../../../../assets/protein1.webp",
+      "quantity": 0,
+      "email": "golu@gmail.com",
+      "id": 15
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "bio": [
+    {
+      "fName": "anan",
+      "lName": "kisku",
+      "email": "anan@mail.com",
+      "contact": "9876543210",
+      "password": "a1234",
+      "id": 1
+    },
+    {
+      "fName": "madhur",
+      "lName": "chhetri",
+      "email": "tandonnakul987@gmail.com",
+      "contact": "6396711738",
+      "password": "m@1234",
+      "id": 2
+    },
+    {
+      "fName": "Madhur",
+      "lName": "Chhetri",
+      "email": "madhur@gmail.com",
+      "contact": "+91-6396711741",
+      "password": "m@1234",
+      "id": 4
+    },
+    {
+      "fName": "Golu",
+      "lName": "Chhetri",
+      "email": "golu@gmail.com",
+      "contact": "+91-9876543210",
+      "password": "g1234",
+      "id": 5
+    },
+    {
+      "fName": "jack",
+      "lName": "ryan",
+      "email": "ryan@gmail.om",
+      "contact": "+91-9876543210",
+      "password": "j@1234",
+      "id": 6
+    },
+    {
+      "fName": "Rahul",
+      "lName": "Gupta",
+      "email": "r@gmail.com",
+      "contact": "+91-9876543210",
+      "password": "r1234",
+      "id": 7
+    },
+    {
+      "fName": "Rahul",
+      "lName": "Gupta",
+      "email": "rahul123@gmail.com",
+      "contact": "+91-9876543210",
+      "password": "r@1234",
+      "id": 8
+    },
+    {
+      "fName": "Jack",
+      "lName": "shawn",
+      "email": "j@mail.com",
+      "contact": "+91-9874561230",
+      "password": "j1234",
+      "id": 9
+    },
+    {
+      "fName": "simbha",
+      "lName": "rana",
+      "email": "s@mail.com",
+      "contact": "+91-9876543210",
+      "password": "s123",
+      "id": 10
+    },
+    {
+      "fName": "Rahul",
+      "lName": "Mishra",
+      "email": "r1234@gmail.com",
+      "contact": "+91-9876543210",
+      "password": "r1234",
+      "id": 11
+    },
+    {
+      "fName": "Jhon",
+      "lName": "shaw",
+      "email": "john@gmail.com",
+      "contact": "+91-9876543210",
+      "password": "j1234",
+      "id": 12
+    }
+  ]
+}

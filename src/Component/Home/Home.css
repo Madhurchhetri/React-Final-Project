@@ -1,0 +1,314 @@
+.banner{
+    filter: brightness(0.5);
+}
+.hero{
+    position: relative;
+    margin: -5rem 0 0 0;
+    padding: 48px 0;
+}
+.hero_content{
+    position: absolute;
+    top: 15.2rem;
+    left: 7.2rem;
+    text-shadow: 2px 2px 4px white, 2px 2px 4px blue;
+    color: #fff;
+    
+}
+.hero_content h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-shadow: #fff 0px 0px 1px,   #000 0px 0px 1px,   #fff 0px 0px 1px;
+   
+}
+.hero_content h4{
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-shadow: #fff 0px 0px 1px,   #000 0px 0px 1px,   #fff 0px 0px 1px;
+    line-height: 1.8;
+}
+.hero .hero_content p{
+    font-size: 2rem;
+    text-transform: capitalize;
+   text-align: start ;
+}
+
+/* ...................section about start..................... */
+
+.abouth {
+    background: #2a3838;
+    
+    
+}
+.abouth-section{
+    margin-top: -66px;
+}
+.abouthImg{
+    position: relative;
+    
+}
+.abouthImg img{
+    width: 80%;
+}
+.abouthImg ::before{
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: 55px;
+    width: 20%;
+    height: 20%;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+/* ...................END about section  ..................... */
+
+.service_Section{
+    position: relative;
+    width: 350px;
+    height: 200px;
+    transition: all .3s;
+    margin: 20px 0;
+    
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.service_Section:hover{
+    filter: brightness(0.5);
+    height: 250px;
+}
+.service_Section .serviceImg{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+}
+.service_Section .serviceImg img{
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    transition: all .3s;
+    box-shadow:  2px 6px 12px #000;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.service_Section:hover .serviceImg img{
+    height: 250px;
+}
+.service_Section .serviceContent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+
+}
+.service_Section .serviceContent button{
+    
+    padding:  10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translatey(90px);
+}
+.service_Section :hover button{
+    transform: translatey(-90px);
+    background-color: #624ecb;
+}
+.service_Section .serviceContent button:hover{
+    background-color: rgba(177, 240, 52, 0.719);
+    /* color: #fff; */
+    font-size: 20px;
+    text-shadow: #fff 0px 0px 1px,   #000 0px 0px 1px,   #fff 0px 0px 1px;
+    font-weight: bolder;
+    z-index: 999;
+}
+
+/* .service_Section:hover .serviceContent{
+    top: -50%;
+    left: 15%;
+} */
+
+
+.trainer{
+    
+    background: #2a3838;
+   padding: 18px 0;
+}
+.trainer h2 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px blue;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.trainer .trainerContent h2 {
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px blue;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.trainer  p {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px blue;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.galleryImg{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px ;
+    transition:  .5s all;
+}
+.galleryImg:hover{
+    transform: scale(1.2);
+}
+.trainer .card{
+    background-color: #2a3838;
+    border: none;
+}
+
+.trainer .trainer_card{
+    position: relative;
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #c295ff;
+    border: 2px solid black;
+    box-shadow:  1px 6px 12px #000;
+    transition: all .3s;
+    
+}
+.trainer .trainer_card:hover{
+    height: 250px;
+}
+.trainer .trainer_card .img-box{
+    position: absolute;
+    left: 50%;
+    top: -47px;
+    width: 100px;
+    height: 100px;
+    transform: translatex(-50%);
+    background: #000;
+    transition: 0.5s;
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7%;
+}
+.trainer .trainer_card .img-box img{
+    width: 100%;
+    
+}
+.trainer .trainer_card:hover .img-box{
+    width: 120px;
+    height: 120px;
+    top: 20px;
+    
+}
+.trainer .trainer_card:hover img{
+    width: 100%;
+    object-fit: fill;
+    
+}
+.trainer .trainer_card .trainerContent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.trainer .trainer_card .trainerContent .detail{
+    color: white;
+    padding:  20px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translatey(70px);
+}
+.trainer .trainer_card:hover .detail{
+    transform: translateY(10px);
+}
+.contact{
+    background: #a9a9a994;
+}
+.trainerContent .detail h2{
+    color: #000;
+}
+.trainerContent .detail button{
+    box-shadow: 2px 6px 12px darkblue;
+	background:linear-gradient(to bottom, #ebfff0 5%, #5cbf2a 100%);
+	background-color:#ebfff0;
+	border-radius:18px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#0a090a;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.trainerContent .detail button:hover {
+    background:linear-gradient(to bottom, #5cbf2a 5%, #ebfff0 100%);
+	background-color:#5cbf2a;
+  }
+
+   /* for responsive.......... */
+   @media only screen and (max-width: 766px) and (min-width: 350px) {
+    
+    .hero_content{
+        top: 10.8rem;
+        left: 2.2rem;
+        padding: 20px 0;
+        
+    }
+    .hero_content h1 , h4, p{
+        font-size: 20px;
+    }
+    .hero_content h4{
+        line-height: 1;
+    }
+    .hero_content p{
+        font-size: 16px !important;
+    }
+    .service_Section .serviceImg img{
+        width: 312px;
+    }
+    .service_Section .serviceImg{
+        width: 312px;
+    }
+    .service_Section{
+        width: 312px;
+    }
+    .trainer .trainer_card{
+        width: 312px;
+        margin: 55px auto;
+    }
+    .abouth{
+        padding: 20px 0;
+    }
+    .abouthImg ::before{
+        content: "";
+        position: absolute;
+        top: -11px;
+        left: 35px;
+        width: 20%;
+        height: 20%;
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+    }
+    .abouth .content_p{
+        line-height: 1rem;
+        font-size: 10px;
+    }
+  }  

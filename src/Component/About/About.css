@@ -1,0 +1,63 @@
+.abt-page{
+    padding: 104px 0;
+    /* margin: 4.4rem 0 0 0; */
+    background: rgb(23,21,27);
+    background: linear-gradient(0deg, rgba(23,21,27,1) 18%, rgba(77,78,84,1) 47%, rgba(19,9,43,1) 100%);
+   
+}
+.abt_h{
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+    color: #fff;
+
+}
+.content_h{
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #fff;
+    
+    
+}
+.content_p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 2.1;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.about-section{
+    margin-top: 1rem;
+}
+.about-section .aboutImg{
+    position: relative;
+}
+.about-section .aboutImg ::before{
+    position: absolute;
+    content: '';
+    width: 20%;
+    height: 20%;
+    top: -15px;
+    left: 0;
+    border-left: 2px solid rgb(229, 225, 231);
+    border-top: 2px solid rgb(221, 218, 231);
+
+   
+   
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 350px){
+    .about-section .aboutImg img{
+        width: 100%!important;
+    }
+    .about-section .aboutImg ::before{
+        
+        width: 20%;
+        height: 20%;
+        top: -6px;
+        left: 5px;
+       
+       
+       
+    }
+}

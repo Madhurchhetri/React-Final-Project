@@ -1,0 +1,130 @@
+{
+    "Exercise":[
+        {
+        "id":"E01",
+        "title":"this is cardio section",
+        "main_image":"../../../../../assets/cardioWorkout.jpg",
+        "sub_exercise":[
+            {
+                "sub_id":"E11",
+                "heading":"Arm circles",
+                "desc":"A person can perform arm circles while sitting or standing, making them ideal for all skill levels.",
+                "perform":"Rotate the arms in a circular motion, both clockwise an counterclockwise. The movement may resemble a butterflyor backstroke. 2. if a person has limited mobility in their arms, they can extend their arms to their sides and draw small circles. ",
+                "image":"../../../../../assets/arm-circles.gif"
+            },
+            {
+                "sub_id":"E12",
+                "heading":"Trunk rotation",
+                "desc":"To increase the intensity, a person can hold a heavy weight, such as a kettlebell, exercise ball, or other household items.",
+                "perform":"Stand with a heavy object at chest height with elbows to the sides. 2 Twist from the torso, turning to one side, then the other. 3. A person can also hold the arms at shoulder height and twist side to side. ",
+                "image":"../../../../../assets/trunk_rotation.gif"
+
+            },
+            {
+                "sub_id":"E13",
+                "heading":"Jumping jacks",
+                "desc":"Jumping jacks are a beginner cardiovascular exercise that a person can perform almost anywhere.",
+                "perform":"1. Begin with the feet hip-width apart and arms down.  2. Raise the arms out to the sides, straight in the air while jumping out with the feet apart. 3. Jump back into the starting position and land softly on the balls of the feet, bringing the arms back into the body. ",
+                "image":"../../../../../assets/jumpingJacks.gif"
+            },
+            {
+                "sub_id":"E14",
+                "heading":"Air squats",
+                "desc":"Air squats work the thigh muscles, hamstrings, quadriceps, and glutes. Since good balance is required, they are an excellent way to engage the core muscles as well.",
+                "perform":"1. Keep feet at shoulder width apart and pointed straight ahead. 2. When squatting, the hips will move down and back. 3. The lumbar curve should be maintained, and heels should stay flat on the floor the entire time. 4. In air squats, the hips will descend lower than the knees. ",
+                "image":"../../../../../assets/airSquats.gif"
+            },
+            {
+                "sub_id":"E15",
+                "heading":"Stair climb",
+                "desc":"A person can incorporate stairs into a workout by going up and down them several times.",
+                "perform":"Taking the stairs two at a time and increasing speed to a running pace can further challenge the cardiovascular system and leg muscles. ",
+                "image":"../../../../../assets/stairs.gif"
+            },
+            {
+                "sub_id":"E16",
+                "heading":"Jump rope",
+                "desc":"Increase the difficulty of jumping an air rope in the beginner exercises to jumping with a real rope at home.",
+                "perform":"A person can alternate between jumping with both feet and jumping from one foot to the other.",
+                "image":"../../../../../assets/jumprope.webp"
+            }]
+    },
+    {
+        "id":"E02",
+        "title":"this is Weight section",
+        "main_image":"../../../../../assets/weight.jpg",
+        "sub_exercise":[
+            {
+                "sub_id":"E21",
+                "heading":"Lunge",
+                "desc":"Its a great movement to promote leg strength, as well as balance. It can also help remedy strength discrepancies from side to side.",
+                "perform":"1. Hold one dumbbell in each hand with your arms down by your side and your feet shoulder-width apart. 2. Push up from your right foot, returning to starting position. 3. Repeat, lunging with your left leg.",
+                "image":"../../../../../assets/lunges.gif" 
+
+            },
+            {
+                "sub_id":"E22",
+                "heading":"Overhead shoulder press",
+                "desc":"Improve your balance and posture and strengthen your entire upper body with the overhead shoulder press.",
+                "perform":"1. Stand with your feet shoulder-width apart and a dumbbell in each hand. 2. Bring the weights up to the fronts of your shoulders, palms facing out. 3. Keeping your core braced and torso upright, push the dumbbells up, extending your arms as you go. 4. Pause at the top, then release, bending your elbows and letting the weights come back down to above the shoulders.",
+                "image":"../../../../../assets/shoulder.gif"
+            },
+            {
+                "sub_id":"E23",
+                "heading":"Single-arm dumbbell row",
+                "desc":"An accessible exercise for beginners, the row also hits all of those important posture muscles.",
+                "perform":"1. Position yourself next to a bench, table, or other elevated surface, bracing yourself with your torso slightly bent. 2. Split your stance and hold a dumbbell in your free hand. 3. Row up, pulling your elbow up and back and squeezing your shoulder blade. 4. Pause at the top, then release and repeat.",
+                "image":"../../../../../assets/single_arm.gif"
+            },
+            {
+                "sub_id":"E24",
+                "heading":"Barbell back squat",
+                "desc":"Not only will they strengthen some of the largest muscles in your body, they will help you perform everyday tasks with ease.",
+                "perform":"1. Load a barbell onto your shoulders, positioning your feet slightly wider than shoulder-width apart. 2. Initiate the squat by sitting back in your hips, then bending your knees. Keep your chest up and gaze ahead. 3. When your thighs hit parallel, pause and push up back to starting position.",
+                "image":"../../../../../assets/barbel_squats.gif"
+            }]
+    },
+    {
+        "id":"E03",
+        "title":" this is Yoga section",
+        "main_image":"../../../../../assets/yoga.avif",
+        "sub_exercise":[
+            {
+                "sub_id":"E31",
+                "heading":"Child's Pose",
+                "desc":"This calming pose is a good default pause position. You can use child’s pose to rest and refocus before continuing to your next pose.",
+                "perform":"When you want to get a nice gentle stretch through your neck spine and hips.",
+                "image":"../../../../../assets/Childs-Pose.webp"
+
+            },
+            {
+                "sub_id":"E32",
+                "heading":"Cobra Pose",
+                "desc":"This back-bending pose can help strengthen the back muscles, increase spinal flexibility and stretches the chest, shoulders and abdomen.",
+                "perform":"This post is great for strengthening the back.",
+                "image":"../../../../../assets/Cobra.gif"
+            },
+            {
+                "sub_id":"E33",
+                "heading":"Tree Pose",
+                "desc":"Beyond helping improve your balance, it can also strengthen your core, ankles, calves, thighs and spine.",
+                "perform":"Great for working on your balance and posture.",
+                "image":"../../../../../assets/treePose.gif"
+            },
+            {
+                "sub_id":"E34",
+                "heading":"Triangle Pose",
+                "desc":"Triangle, which is a part of many yoga sequences helps build strength in the legs and stretches the hips, spine, chest, shoulders, groins, hamstrings and calves.",
+                "perform":" This pose is great for building strength and endurance",
+                "image":"../../../../../assets/triangle.gif"
+            },
+            {
+                "sub_id":"E35",
+                "heading":"Bridge Pose",
+                "desc":"This is a back-bending pose that stretches the muscles of the chest, back and neck. It also builds strength in the back and hamstring muscles.",
+                "perform":"If you sit most of the day, this pose will help you open your upper chest.",
+                "image":"../../../../../assets/bridge-pose.gif"
+            }]
+    }
+]
+}

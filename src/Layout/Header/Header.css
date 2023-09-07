@@ -1,0 +1,58 @@
+.main_menu{
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 999 !important;
+    background: #ffe3e39e !important;
+    color: aliceblue!important;
+    
+}
+.main_menu .profileName{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoDiv .logoImg{
+    margin: 0 0 0 4rem;
+    width: 21%;
+    height: 45px;
+    display: block;
+    transition: all .3s;
+   
+}
+.main_menu a{
+    color: #fff;
+    margin: 0 20px;
+}
+.logoDiv{
+    margin: 0!important;
+    width: 25%;
+}
+
+.sticked{
+    background-color: blueviolet !important;
+}
+.sticked .logoImg{
+    width: 25%;
+    height: 42px;
+}
+.sticked a {
+    font-size: 18px;
+    font-weight: bold;
+    color: yellow;
+    
+}
+.sticked .profileName{
+    color: yellow;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileName .icon{
+    font-size: 28px;
+}

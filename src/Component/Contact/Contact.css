@@ -1,0 +1,154 @@
+.contact{
+    
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 104px 0;
+    background: url(../../../public/assets/sendQuery.jpg);
+    background-size: 100% 100%;
+    filter: brightness(0.9);
+    border-radius: 5px;
+}
+
+.contact form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    margin: 20px auto;
+    padding: 20px 0;
+    background: #382222a8;
+    box-shadow: 2px 6px 12px #000;
+}
+.contact .inpt_box1{
+    width: 100%;
+    margin: 30px 0 0 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact form .inpt_box1 input{
+  width: 68%;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 20px auto;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: transparent;
+  outline: none;
+  color: #000;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  font-size: 20px;
+}
+.contact form .inpt_box1  .inpt-lbl{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 70px;
+    color: #000;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    transition: .3s;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+.contact form .inpt_box1 input:focus~.inpt-lbl,
+.contact form .inpt_box1 input:valid~.inpt-lbl{
+     top: -20px;
+    left: 20px;
+    font-size: 15px;
+}
+.contact form .inpt_box1 textarea:focus~.inpt-lbl,
+.contact form .inpt_box1 textarea:valid~.inpt-lbl{
+     top: -25px;
+    left: 20px;
+    font-size: 15px;
+}
+.contact form textarea{
+  
+    width: 68%;
+    border-radius: 5px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    outline: none;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.contact .btn {
+    width: 30%;
+    margin: 20px auto;
+    /* background: #d1d2d9f5; */
+    text-transform: capitalize;
+    
+    border: 2px solid #fff;
+    font-size: 20px;
+    color: #131313;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background: #cfcaad;
+    font-weight: bolder;
+    box-shadow: 0 2px 0 2px #000;
+   }
+   
+   .contact .btn:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 30%;
+    background-color: #ff6700;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+   }
+   
+   .contact  .btn:hover {
+    background-color: #4cc9f0;
+    color: #fff;
+    box-shadow: 0 2px 0 2px #0d3b66;
+   }
+   
+   .contact  .btn:hover::before {
+    transform: skewX(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+   }
+   
+   .contact  .btn:active {
+    transform: scale(0.9);
+   }
+  .cntct{
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    
+  }
+  .contact a{
+    width: 10%;
+  } 
+  .contact a .Signup{
+    width: 100% !important;
+    font-size: 16px !important;
+  }
+  .contact-heading{
+    color: #000;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  }
+  @media only screen and (max-width: 600px) and (min-width: 350px){
+    .contact form{
+      width: 100%;
+    }
+  }

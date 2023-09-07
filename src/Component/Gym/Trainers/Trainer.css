@@ -1,0 +1,26 @@
+.pro-trainer{
+    
+    padding: 104px 0;
+    background: rgb(23,21,27);
+background: linear-gradient(0deg, rgba(23,21,27,1) 18%, rgba(77,78,84,1) 47%, rgba(19,9,43,1) 100%);
+}
+.pros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.pros img{
+    height: 330px!important;
+}
+/* .pros  .guruji{
+    height: 330px !important;
+} */
+.pros .first{
+    background-color: #334444 !important;
+    color: aliceblue;
+}
+.pros .second{
+    background-color: blueviolet;
+    color: yellow;
+}

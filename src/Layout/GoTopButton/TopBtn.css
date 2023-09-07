@@ -1,0 +1,45 @@
+body{
+    position: relative;
+}
+.top-btn{
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
+    opacity: 222;
+    width: 7%;
+    padding: 12px;
+    background-color: #ff914d;
+    display: flex;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.top-btn{
+    font-size: 25px;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 1154px) and (min-width: 880px){
+    .top-btn{
+        bottom: 10rem;
+        font-size: 18px;
+        right: 2rem;
+
+    }
+}
+@media only screen and (max-width: 880px) and (min-width: 758px){
+    .top-btn{
+        bottom: 12rem;
+        font-size: 18px;
+        right: 2rem;
+
+    }
+}
+@media only screen and (max-width: 758px) and (min-width: 350px){
+    .top-btn{
+        bottom: 17rem;
+        font-size: 18px;
+        right: 2rem;
+
+    }
+}

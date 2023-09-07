@@ -1,0 +1,116 @@
+.login_page{
+    background: rgb(45,67,253);
+    background: linear-gradient(0deg, rgba(45,67,253,1) 10%, rgba(19,9,43,1) 35%, rgba(19,9,43,1) 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    margin: 0rem 0 0 0;
+    border-radius: 5px;
+}
+.login_page .form_grp{
+    width: 70%;
+    margin: auto;
+    padding: 20px 0;
+}
+.login_page .form_grp .txt{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.login_page .form_grp .left_side{
+    width: 30%;
+}
+.login_page .form_grp .left_side form{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+}
+.login_page .form_grp .left_side .inpt_box {
+    width: 100%;
+    margin: 50px 0 0 0;
+    position: relative;
+}
+.login_page .form_grp .left_side .inpt_box input{
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+}
+.login_page .form_grp .left_side .inpt_box label{
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    transition: .3s;
+
+}
+.login_page .form_grp .left_side .inpt_box span{
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+.login_page .form_grp .left_side .inpt_box input:focus~label,
+.login_page .form_grp .left_side .inpt_box input:valid~label{
+    top: -30px;
+    left: 0;
+    font-size: 15px;
+}
+.login_page .form_grp .left_side input[type=submit]{
+    padding: 5px 10px;
+    border: 1px solid;
+    background-color: blue;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px grey;
+    transition: all 0.3s;
+}
+.login_page .form_grp .left_side input[type=submit]:hover{
+    color: yellow;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.login_page .form_grp p{
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+    margin: 50px 0 0 0;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+/ .login_page .form_grp p a{
+    text-decoration: none;
+    color: #fff !important;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.login_page .form_grp p a:hover{
+    color: yellow;
+   
+} */
+.login_page .form_grp .right_side img{
+    filter: opacity(0.8);
+}
